@@ -764,6 +764,7 @@ main .container .right {
         bottom: 0;
         right: 0;
     }
+    
     /* ----------NOTIFICATION POPUP ----------- */
 
     .left .notifications-popup {
@@ -786,5 +787,11 @@ main .container .right {
 
     .customize-theme .card {
         width: 92vw;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .customize-theme .choose-bg {
+        flex-wrap: wrap;
     }
 }
